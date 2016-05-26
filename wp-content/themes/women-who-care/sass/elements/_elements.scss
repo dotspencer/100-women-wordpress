@@ -36,3 +36,8 @@ img {
 }
 
 @import "tables";
+
+#primary, header, footer {
+	width: $size__width;
+	margin: 0 auto;
+}
