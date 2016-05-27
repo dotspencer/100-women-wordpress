@@ -1,0 +1,12 @@
+body{
+  background: $body_color;
+}
+
+#content, header, footer {
+	width: $size__width;
+	margin: 0 auto;
+}
+
+#content{
+	background-color: whitesmoke;
+}

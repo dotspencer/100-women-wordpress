@@ -1,0 +1,18 @@
+.menu a{
+  color: gray;
+  padding: 10px;
+  font-size: 1.2em;
+  font-family: Helvetica;
+  font-weight: 900;
+  text-transform: uppercase;
+  transition: all .1s;
+}
+
+.menu a:hover{
+  color: #333;
+}
+
+.menu .current-menu-item a{
+  background: #8BBC5E;
+  color: white;
+}

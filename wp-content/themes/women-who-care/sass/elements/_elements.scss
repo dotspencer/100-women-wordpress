@@ -36,13 +36,3 @@ img {
 }
 
 @import "tables";
-
-#primary, header, footer {
-	width: $size__width;
-	margin: 0 auto;
-}
-
-#primary{
-	background-color: $color__primary;
-	//padding: 50px;
-}
