@@ -1,15 +1,21 @@
+//.wf-loading .menu a{ opacity: 0;}
+
 .menu a{
   color: gray;
   padding: 10px;
   font-size: 1.2em;
-  font-family: Helvetica;
-  font-weight: 900;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  letter-spacing: 1px;
   text-transform: uppercase;
   transition: all .1s;
 }
 
 .menu a:hover{
   color: #333;
+}
+.menu a:focus{
+  outline: none;
 }
 
 .menu .current-menu-item a{
