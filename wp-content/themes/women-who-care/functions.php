@@ -150,3 +150,11 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+/**
+ * Custom logo
+ */
+function mytheme_setup() {
+    add_theme_support('custom-logo');
+}
+add_action('after_setup_theme', 'mytheme_setup');

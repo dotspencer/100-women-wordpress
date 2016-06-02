@@ -31,13 +31,14 @@
 <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#main"><?php esc_html_e( 'Skip to content', 'women-who-care' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
 		<!-- .site-branding -->
 		<div class="site-branding">
+			<?php the_custom_logo() ?>
 			<?php
 			if ( is_front_page() && is_home() ) : ?>
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>

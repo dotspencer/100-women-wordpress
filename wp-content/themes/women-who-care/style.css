@@ -631,6 +631,9 @@ body {
 #content {
   background-color: whitesmoke;
 }
+.content-area {
+  padding: 0 30px;
+}
 .menu a {
   color: gray;
   padding: 10px;
@@ -650,4 +653,12 @@ body {
 .menu .current-menu-item a {
   background: #8bbc5e;
   color: white;
+}
+.custom-logo {
+  width: 230px;
+  margin-bottom: -75px;
+  margin-top: -15px;
+}
+.custom-logo-link:focus {
+  outline: none;
 }
