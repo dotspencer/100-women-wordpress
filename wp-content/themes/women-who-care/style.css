@@ -662,3 +662,6 @@ body {
 .custom-logo-link:focus {
   outline: none;
 }
+.text-shadow {
+  text-shadow: 0 0 9px black;
+}
