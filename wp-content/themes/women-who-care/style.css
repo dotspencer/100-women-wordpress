@@ -623,6 +623,25 @@ embed, iframe, object {
 }
 body {
   background: white;
+  font-family: 'Open Sans';
+}
+p, li {
+  font-size: 1.1em;
+  line-height: 2em;
+}
+.wpb_text_column li {
+  list-style-type: none;
+}
+.wpb_text_column li:before {
+  content: "•";
+  font-weight: 800;
+  font-size: 50px;
+  font-family: Arial;
+  color: #8bbc5e;
+  display: block;
+  margin-bottom: -36px;
+  margin-top: 15px;
+  margin-left: -40px;
 }
 #content, header, footer {
   width: 1140px;
@@ -632,11 +651,16 @@ body {
   background-color: whitesmoke;
 }
 .content-area {
-  padding: 0 30px;
+  padding: 0 50px;
 }
 .vc_row.edge {
-  margin-left: -30px !important;
-  margin-right: -30px !important;
+  margin-left: -50px !important;
+  margin-right: -50px !important;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+.vc_column-inner {
+  padding: 36px 0;
 }
 .edit-link {
   display: none;

@@ -18,7 +18,7 @@
 	<script>
 	  WebFont.load({
 	    google: {
-	      families: ['Open+Sans:800']
+	      families: ['Open+Sans:800,400']
 	    }
 	  });
 	</script>
